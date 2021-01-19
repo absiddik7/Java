@@ -4,7 +4,8 @@ public class Varriable {
         System.out.println("Learn Java!");
 
         System.out.println("Learn Java!");
+
         System.out.println("Learn Java!");
-        
+
     }
 }
