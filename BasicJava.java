@@ -31,11 +31,32 @@ public class BasicJava{
 
         // user input
         Scanner input = new Scanner(System.in);
+
         System.out.print("Please enter a number: ");
         int number = input.nextInt();
         System.out.println("You entered = " + number);
-        input.close();
+        
+        System.out.print("Please enter a float number: ");
+        float floatNum = input.nextFloat();
+        System.out.println("You entered = " + floatNum);
 
+        System.out.print("Please enter a string: ");
+        String word = input.next();
+        System.out.println("You entered = " + word);
+
+
+
+        // if..else statement
+        int marks = 90;
+
+        if (marks > 80){
+            System.out.println("You got grade A");
+        } else{
+            System.out.println("You did not get grade A");
+        }
+
+
+        input.close();
 
     }
 }
